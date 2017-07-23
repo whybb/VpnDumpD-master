@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VpnDumpDemo</string>
+    <string name="toast">
+        利用广播adb shell am broadcast -a com.vpndump.state.start实现抓包的开启
+        adb shell am broadcast -a com.vpndump.state.start实现抓包的关闭
+        由于是动态注册的广播，所以要加上adb shell am start -n com.vpndumpdemo/com.vpndumpdemo.view.GraspBag打开主程序
+    </string>
+</resources>
